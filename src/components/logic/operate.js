@@ -20,6 +20,9 @@ export default function operate(numberOne, numberTwo, operation) {
     }
   }
   if (operation === '%') {
+    if (two.c[0] === 0) {
+      return 0;
+    }
     return one.mod(two).toString();
   }
   throw Error(`Unknown operation '${operation}'`);
