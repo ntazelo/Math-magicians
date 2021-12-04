@@ -1,0 +1,15 @@
+.cont {
+  width: 80%;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont > * {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.cont > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
