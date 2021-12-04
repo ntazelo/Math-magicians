@@ -1,12 +1,14 @@
+body {
+  background-image: url(../images/retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+  background-size: cover;
+}
+
 .container {
-  background-color: darkcyan;
   display: grid;
-  grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: repeat(6, 4rem);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  grid-template-columns: repeat(4, 7rem);
+  grid-template-rows: repeat(6, 5rem);
+  width: 40%;
+  margin: 0 auto;
 }
 
 .field-inp {
@@ -16,6 +18,19 @@
   justify-content: flex-end;
   padding: 0.5rem;
   background-color: darkgray;
+}
+
+.calculator-cont {
+  width: 100%;
+  display: flex;
+  margin-top: 8rem;
+}
+
+.heading {
+  width: 40%;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .mod {

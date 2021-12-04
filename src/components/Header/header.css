@@ -1,0 +1,45 @@
+.cont-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.5rem auto;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-title,
+.navbar-link {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-option {
+  margin: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-list > *:not(:last-child) {
+  border-right: 2px solid #fff;
+}
