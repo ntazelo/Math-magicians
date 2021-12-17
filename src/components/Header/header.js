@@ -22,7 +22,6 @@ const Header = () => (
 
       </nav>
     </div>
-    <div className="hour-dis" />
   </header>
 );
 
